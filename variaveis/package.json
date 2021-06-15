@@ -1,0 +1,8 @@
+{
+  "name": "variaveis",
+  "version": "1.0.0",
+  "description": "veriaveis node",
+  "main": "variaveis.js",
+  "author": "cientista_avogadro",
+  "license": "MIT"
+}

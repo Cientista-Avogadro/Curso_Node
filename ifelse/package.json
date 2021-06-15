@@ -1,0 +1,8 @@
+{
+    "name": "ifelse",
+    "version": "1.0.0",
+    "description": "estrutura condicional",
+    "main": "ifelse.js",
+    "author": "cientista_avogadro",
+    "license": "MIT"
+}

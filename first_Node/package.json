@@ -1,0 +1,8 @@
+{
+  "name": "Hello-World",
+  "version": "1.0.0",
+  "description": "Primeiro Projecto Node",
+  "main": "index.js",
+  "author": "Cientista_Avogadro",
+  "license": "MIT"
+}

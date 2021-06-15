@@ -1,0 +1,8 @@
+{
+  "name": "objarray",
+  "version": "1.0.0",
+  "description": "objectos e arrays em node",
+  "main": "objarray.js",
+  "author": "cientista_avogadro",
+  "license": "MIT"
+}

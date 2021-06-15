@@ -1,0 +1,11 @@
+{
+  "name": "api2",
+  "version": "1.0.0",
+  "description": "api query e router params",
+  "main": "index.js",
+  "author": "cientista",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
