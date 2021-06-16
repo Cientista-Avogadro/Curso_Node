@@ -20,9 +20,8 @@ server.get('/users', (req, res) => {
 
 
 server.get('/users/id/:id', (req, res) => {
-    let ret = req.params.id < 0 ? 0 : req.params.id <= pessoas.length ?
+    return req.params.id < 0 ? 0 : req.params.id <= pessoas.length ?
         res.json(pessoas[req.params.id < 0 ? 0 : req.params.id]) : res.json('usuario não encontrado');
-    return ret;
 })
 
 
@@ -33,7 +32,7 @@ server.get('/users/nome/:nome', (req, res) => {
 });
 
 function isNULLorWhitespace(str) {
-    if (str == null || str == "")
+    if (str == null || str === "")
         return true;
 }
 

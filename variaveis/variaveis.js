@@ -1,9 +1,5 @@
 function isNULLorWhitespace(str) {
-    if (str == null || str == "") {
-        return true;
-    } else {
-        return false;
-    }
+    return str == null || str === "";
 }
 
 console.log(isNULLorWhitespace("null"));
