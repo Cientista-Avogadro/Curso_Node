@@ -1,6 +1,13 @@
 var express = require('express');
 var server = express();
 
+
+
+//route initial
+server.get('/',(req,res)=>{
+    return res.json('Api On');
+})
+
 //criando uma rota get 
 server.get('/Teste', (req, res) => {
     var pessoa = {

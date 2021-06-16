@@ -1,3 +1,8 @@
+var express = require('express');
+var server = express();
+
+server.use(express.json());
+
 var pessoa1 = {
     nome: 'cientista avogadro',
     email: 'cientistsavogadro2019@gmail.com',
@@ -11,7 +16,13 @@ var pessoa2 = {
 }
 
 var pessoas = [];
-pessoas.push(pessoa1);
-pessoas.push(pessoa2);
 
-console.log(pessoas);
+server.get('/',(req,res)=>{
+    pessoas.push(pessoa1);
+    pessoas.push(pessoa2);
+    return res.json(pessoas);
+})
+
+
+server.listen(3000);
+console.log('Criando o servidor e rodar na porta 3000');

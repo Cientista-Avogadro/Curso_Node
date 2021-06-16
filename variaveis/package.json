@@ -4,5 +4,8 @@
   "description": "veriaveis node",
   "main": "variaveis.js",
   "author": "cientista_avogadro",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
